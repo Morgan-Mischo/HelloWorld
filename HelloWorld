@@ -1,0 +1,28 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hello World</title>
+        <?php 
+        /* 
+         * Page Created by Morgan
+         * CSIS 2440 Day 1
+         */
+        $name="Morgan Mischo";
+        $age = 20; 
+        $male = false; 
+        $icecream = "Matcha"; 
+        $imagefile = ""; 
+        ?>
+</head>
+<body><div>
+    <?php
+    //Get some better style!
+    echo "<p style = 'font:tahoma; color:red;'Hello world, this is my first PHP page!</p>"; 
+    print("<p>My names: ".$name."Who is $age years old, and likes $icecream ice-cream</p>"); 
+    print('<p>We are using variables $name, $age, $icecream</p>'); 
+    print("<img src='$imagefile' height='100'>"); 
+    ?>
+    </div>
+</body>
+</html>
